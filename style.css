@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+}
+
+.order {
+    margin: 0 auto;
+    background-color: #2A48B4;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    background: #2A48B4;
+    box-shadow: 0px 4px 12px rgba(42, 72, 180, 0.67);
+}
+
+.branch-white {
+    font-family: "Raleway", sans-serif;
+    padding: 12px 0px 12px 0px;
+    text-align: center;
+    font-size: 32px;
+    border-bottom: 2px solid #ffffff;
+    color: white;
+}
+
+.container {
+    max-width: 340px;
+    margin: 0 auto;
+}
+
+.branch-black {
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding: 12px 0px 12px 0px;
+    font-size: 28px;
+    border-bottom: 2px solid #ffffff;
+    color: black;
+    font-weight: 700;
+}
+
+.block-subject {
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px 0px 20px 0px;
+}
+
+.date {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin: 15px 0px 15px 0px;
+    color: white;
+}
+
+.time {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.text {
+    font-size: 14px;
+}
+
+.day {
+    font-size: 24px;
+}
+
+.month {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.full-order {
+    padding: 0px 0px 22px 0px;
+    border: 0px solid #2A48B4;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.full-order:active {
+    transition: 100ms;
+    color: red;
+}
+
+.news {
+    margin: 12px 0px 0px 0px;
+}
+
+.image {
+    width: 100%;
+    background-color: gray;
+    border-radius: 10px;
+}
+
+.text-news {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.news-block {
+    display: grid;
+    grid-template-columns: 25% 70%;
+    gap: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px rgba(42, 72, 180, 0.67);
+    border-radius: 18px;
+    padding: 20px 10px 20px 10px;
+    margin: 15px 0px 15px 0px;
+}
