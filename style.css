@@ -91,6 +91,7 @@
 }
 
 .image {
+    height: 80px;
     background-color: gray;
     border-radius: 10px;
 }
