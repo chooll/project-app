@@ -2,6 +2,10 @@
     margin: 0;
 }
 
+.schedule-style {
+    background-color: #2A48B4;
+}
+
 .order {
     margin: 0 auto;
     background-color: #2A48B4;
@@ -79,6 +83,8 @@
     border-radius: 15px;
     text-align: center;
     cursor: pointer;
+    width: 100%;
+    background: none;
 }
 
 .full-order:active {
