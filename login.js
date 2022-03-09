@@ -17,7 +17,7 @@ function loginInApp() {
         if (login.value == accounts[i]["login"]) {
             if (password.value == accounts[i]["password"]) {
                 st = true;
-                window.location.href = 'index.html';
+                window.location.href = 'main.html';
                 break;
             }
         }
